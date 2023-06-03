@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexSam</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        #logo {
+            display: flex;
+            position: sticky;
+            top: 0;
+            height: auto;
+        }
+
+        header {
+            height: auto;
+            background: chocolate;
+        }
+
+        header h1 {
+            color: blue;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background: violet;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            padding: 15px;
+            color: green;
+            font-size: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background: cornflowerblue;
+        }
+
+        @media (min-width:768px) {
+            .kontejner1 {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            .navbar {
+                flex-direction: column;
+            }            
+        }
+       
+        .box2 {
+            background: lightpink;            
+            flex-basis: 50%;
+            padding: 15px;
+        }
+        
+        .box1, .box3 {
+            background: lightgreen;
+            flex-basis: 25%;
+            padding: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: lightseagreen;
+        }
+
+    </style>
+
+
+</head>
+<body>    
+
+    <div id="logo">
+        <img src="slika/logo.png" alt="logo slika" width="100%">
+    </div>
+
+    <div>
+        <header>
+            <h1>Dobro dosli na king long prezentaciju</h1>
+        </header>
+    </div>
+
+    <div class="navbar">
+        <a href="#">About</a>
+        <a href="#">Maps</a>
+        <a href="#">Mirror</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="kontejner1">
+
+        <div class="box1">
+            <h3>Maca ima rep</h3>
+            <p>Maca mase repom Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quos atque inventore! Quaerat quis voluptatem possimus! Aliquam tempora porro distinctio vel placeat dolor ea itaque, autem libero ipsa sint repellat!</p>
+            <h4>Dzeka mrda</h4>
+            <p>Mrda rep Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quia veritatis laudantium! Non consequuntur nisi quo rerum minus, cumque atque ut earum eum maiores numquam ipsam corporis consectetur, vero error.</p>
+        </div>
+
+        <div class="box2">
+            <h2>Maca i dzeka imaju usi i rep</h2>
+            <p>Ove zivotinjice imaju i usi i rep Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum officiis tempore nesciunt voluptas amet perspiciatis, autem quisquam tempora consequuntur quas accusamus dolorem sit itaque vitae quo nihil odit tenetur nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur asperiores, sunt recusandae ducimus eum vero repellat libero fuga odit? Dicta, pariatur quisquam! Voluptatibus beatae vero debitis nesciunt adipisci quibusdam quam?</p>
+            <h3>Koji rep je veci</h3>
+            <p>Maca ima duzi rep, a dzeka ima duze usi Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ex similique autem! Numquam saepe laudantium placeat in, deleniti facilis quos quidem est, velit hic eos delectus temporibus cupiditate perspiciatis molestias.</p>
+        </div>
+
+        <div class="box3">
+            <h3>Lepa maca ima rep</h3>
+            <p>Lepa maca mase repom Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quos atque inventore! Quaerat quis voluptatem possimus! Aliquam tempora porro distinctio vel placeat dolor ea itaque, autem libero ipsa sint repellat!</p>
+            <h4>Dzeka skace</h4>
+            <p>Lepa maca rep Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quia veritatis laudantium! Non consequuntur nisi quo rerum minus, cumque atque ut earum eum maiores numquam ipsam corporis consectetur, vero error.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Sajt o macama i dzekama</p>
+    </footer>
+
+    
+    
+</body>
+</html>

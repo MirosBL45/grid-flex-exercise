@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridSAM</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        header {
+            background:lightpink;
+        }
+
+        header h1 {
+            color: darkgoldenrod;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background: violet;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media screen and (max-width: 700px) {
+            .navbar {
+                flex-direction: column;
+            }            
+        }
+
+        .navbar a {
+            text-decoration: none;
+            padding: 15px;
+            color: green;
+            font-size: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background: cornflowerblue;
+        }
+
+        .logo {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-auto-rows: auto;
+            position: sticky;
+            top: 0;
+        }
+
+        @media screen and (min-width: 700px) {            
+            .wraper {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-auto-rows: minmax(100px, auto);
+            background: powderblue;
+            }
+        }
+        
+        .wraper {
+            background: powderblue;
+        }
+
+
+        .wraper > div {
+            padding: 1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1px;
+            background: lightseagreen;
+        }
+        .central {
+            background: lightsalmon;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="logo">
+        <img src="slika/logo.png" alt="logo slika" width="100%">
+    </div>
+    
+
+
+    <header>
+        <h1>Sajt o macama koje love miseve dok trce blesavi po travi</h1>
+    </header>
+
+    <nav>
+        <div class="navbar">
+            <a href="gridSAM.html">About</a>
+            <a href="GRIDsaYT.html">Maps</a>
+            <a href="GRIDsaYT2.html">Mirror</a>
+            <a href="GRIDsaYT3.html">Contact</a>
+        </div>
+    </nav>
+
+    <section>
+        <div class="wraper">
+            <div>
+                <h2>Maca i mis</h2>
+                <p>Maca lovi misa koji trci Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus officia commodi neque quasi beatae. Ipsa minus sequi mollitia veritatis reiciendis! Recusandae, repudiandae dolore quam mollitia minus voluptatibus hic repellendus doloribus!</p>
+                <h4>Dzeka mrda</h4>
+            <p>Mrda rep Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quia veritatis laudantium! Non consequuntur nisi quo rerum minus, cumque atque ut earum eum maiores numquam ipsam corporis consectetur, vero error.</p>
+            </div>
+            <div class="central">
+                <h2>Mis bezi od mace</h2>
+                <p>Mis bezi od mace Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nesciunt ratione eveniet alias? Facere est odit aliquam quis animi asperiores optio veritatis velit eveniet perferendis nostrum illo repudiandae magni dolores ea voluptas non, amet eius maxime ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis facilis aut voluptatum enim, quod saepe. Architecto similique eaque voluptates corporis sit ipsa accusantium eius, pariatur ullam quae assumenda quaerat adipisci. Dolore dignissimos reprehenderit nulla ut, illo in. Nemo, quos veritatis iure quisquam accusamus ab consequuntur incidunt accusantium mollitia, ex illo! in ullam delectus vitae quibusdam quisquam sit optio odit similique.Totam possimus at esse repellendus asperiores ducimus ut. adipisicing elit. Architecto corrupti ea nihil molestiae quam quod quas nobis totam adipisci nemo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempora sint neque. Ea ex cumque recusandae alias consectetur quisquam nihil reprehenderit beatae ad id nemo atque, nisi inventore sunt neque voluptatibus et mollitia ut ullam autem sapiente quas aspernatur explicabo! Quaerat ipsam corrupti animi aperiam, sunt corporis saepe esse totam!</p>
+            </div>
+            <div>
+                <h2>Pojeden mis</h2>
+                <p>Maca pojela malog misa Lorem, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deleniti illum culpa qui corrupti nulla dolor, voluptate distinctio. Facilis tempora amet quaerat architecto delectus nemo incidunt doloribus pariatur.ipsum dolor sit amet consectetur adipisicing.</p>
+                <h4>Dzeka skace</h4>
+            <p>Lepa maca rep Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quia veritatis laudantium! Non consequuntur nisi quo rerum minus, cumque atque ut earum eum maiores numquam ipsam corporis consectetur, vero error.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>Copyright &copy; 2021 Mickov sajt</p>
+    </footer>
+    
+</body>
+</html>

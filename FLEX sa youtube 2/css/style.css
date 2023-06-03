@@ -1,0 +1,44 @@
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #0071ad;
+}
+
+html, body {
+  background: #ffefad;
+  margin: 10px;
+  height: 100%;
+}
+
+.container > div:nth-child(1) {
+  background: #97ceb4;
+}
+
+.container > div:nth-child(2) {
+  background: #ff706b;
+}
+
+.container > div:nth-child(3) {
+  background: #888ed8;
+}
+
+.container > div {
+  background: #c888d8;
+}
+
+.container {
+  border: 5px solid #ffcb5c;
+  display: flex;
+  flex-wrap: wrap;
+  /* za pozicioniranje 1 elementa
+    u savrsenu sredinu u kontejneru
+    align-items: center;
+    justify-content: center;
+    */
+  /*justify-content: flex-start  flex-end  center  space-around  space-between space-evenly*/
+}
+
+.container > div {
+  flex: 1;
+}
